@@ -1,0 +1,30 @@
+.Game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+
+  &__info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    height: 90%;
+    width: 40%;
+
+    color: #fff;
+  }
+
+  &__button {
+    width: 68px;
+    height: 28px;
+
+    color: #fff;
+    cursor: pointer;
+
+    background-color: #434261;
+  }
+}

@@ -1,0 +1,9 @@
+.Board {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+
+  border-top: 5px solid #b160ca;
+  border-left: 5px solid #b160ca;
+}

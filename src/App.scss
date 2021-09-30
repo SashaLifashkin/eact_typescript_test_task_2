@@ -1,3 +1,48 @@
-.starter {
-  font-size: 18px;
+* {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+
+  background-color: #4e5975;
+  font-size: 24px;
+
+  &__title-input {
+    font-size: 22px;
+    color: #fff;
+  }
+
+  &__input {
+    width: 300px;
+    height: 24px;
+
+    &-error {
+      border: 2px solid rgb(216, 87, 87);
+    }
+  }
+
+  &__check-input {
+    width: 150px;
+    height: 16px;
+
+    &-text {
+      font-size: 14px;
+      color: rgb(216, 87, 87);
+    }
+  }
+
+  &__button-form {
+    width: 140px;
+    height: 28px;
+
+    color: #fff;
+    cursor: pointer;
+    background-color: #434261
+  }
 }
