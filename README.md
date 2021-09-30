@@ -1,9 +1,3 @@
-# React TypeScript Starter Pack
+[DEMO LINK](https://github.com/SashaLifashkin/eact_typescript_test_task_2)
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+#TIC-TAK-TOE
